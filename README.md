@@ -4,7 +4,7 @@
   
 ![DarkAlert Banner](https://raw.githubusercontent.com/general-04/DarkAlert/refs/heads/main/LogoDarkAlertv2.jpg)
 
-**DuskNotify**
+**DuskNotify9Level**
 
 [![Version](https://img.shields.io/badge/version-2.0.0-8B5CF6.svg)](https://github.com/general-04/DuskNotify)
 [![Size](https://img.shields.io/badge/size-60kb-4F46E5.svg)]()
