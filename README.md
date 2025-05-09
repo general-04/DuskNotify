@@ -61,25 +61,32 @@ Dusk.successToast({
 
 ```javascript
 Dusk.fire({
-    title: '',                 // หัวข้อ
-    text: '',                  // ข้อความ
-    icon: 'info',              // ไอคอน (info, success, error, warning, loading)
-    showConfirmButton: true,   // แสดงปุ่มยืนยัน
-    showCancelButton: false,   // แสดงปุ่มยกเลิก
-    confirmButtonText: 'OK',   // ข้อความปุ่มยืนยัน
-    cancelButtonText: 'Cancel',// ข้อความปุ่มยกเลิก
-    confirmCallback: null,     // ฟังก์ชันเมื่อคลิกปุ่มยืนยัน
-    cancelCallback: null,      // ฟังก์ชันเมื่อคลิกปุ่มยกเลิก
-    closeOnOverlayClick: true, // ปิดเมื่อคลิกภายนอก
-    progress: false,           // แสดงแถบโหลด
-    timer: null,               // ตั้งเวลาปิดอัตโนมัติ (มิลลิวินาที)
-    position: 'center',        // ตำแหน่ง (center, top, bottom)
-    animation: true,           // เปิด/ปิดการเคลื่อนไหว
-    customClass: '',           // คลาสเพิ่มเติม
-    allowOutsideClick: true,   // อนุญาตให้คลิกภายนอกเพื่อปิด
-    backdrop: true,            // แสดงพื้นหลังทึบ
-    toast: false,              // โหมด Toast
-    toastPosition: 'bottom-end'// ตำแหน่ง Toast
+  title: '', // หัวข้อหลักของการแจ้งเตือน 
+  text: '', // ข้อความเนื้อหา
+  icon: 'info', // ไอคอนที่จะแสดง: 'success', 'info', 'warning', 'error', 'loading', 'ask', 'shield', 'clock', 'bell', 'search', 'setting', 'ban'
+  iconVisible: true, // แสดงหรือซ่อนไอคอน
+  image: '', // รูป
+  alertColorContent: '', // อันนีัใน doc ไม่บอกแต่สามารถใช้ชื่อ icon แทนสี (HEX) ได้ด้วย
+  showButtonColumn: true, // เรียงปุ่มเป็น ึคอลลัม แนะนำอ่าน doc
+  showButtonGrow: true, // ปุ่มขยายเต็มพื้นที่ (true) 
+  showConfirmButton: true, // แสดงปุ่มยืนยัน
+  showCancelButton: false, // แสดงปุ่มยกเลิก
+  confirmButtonText: 'OK', // ข้อความบนปุ่มยืนยัน
+  cancelButtonText: 'Cancel', // ข้อความบนปุ่มยกเลิก
+  confirmCallback: null, // ฟังก์ชัน callback เมื่อกดปุ่มยืนยัน
+  cancelCallback: null, // ฟังก์ชัน callback เมื่อกดปุ่มยกเลิก
+  closeOnOverlayClick: true, // ปิด alert เมื่อคลิกด้านนอก
+  progress: true, // แสดงแถบ progress ด้านล่าง
+  timer: null, // เวลาในการปิดอัตโนมัติ ms
+  position: 'center', // ตำแหน่งของ alert
+  animation: true, // เปิดอนิเมชัน
+  animationCustomStart: '', // อนิเมชันเริีม แนะนำอ่าน doc
+  animationCustomEnd: '', // อนิเมชันจบ แนะนำอ่าน doc
+  customClass: '', // เพิ่มคลาสเอง
+  allowOutsideClick: true, // อนุญาตให้คลิกนอก alert ได้ 
+  backdrop: true, // แสดงพื้นหลังมืดขณะเปิด alert
+  toast: false, // แสดงแบบ Toast 
+  toastPosition: 'bottom-end' // ตำแหน่งของ toast 
 });
 ```
 
