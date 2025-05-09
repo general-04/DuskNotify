@@ -1,4 +1,4 @@
-# DarkAlert 🌑
+# DuskNotify 🌑
 
 <div align="center">
   
