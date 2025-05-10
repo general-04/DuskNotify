@@ -6,7 +6,7 @@
 
 **DuskNotify9Level**
 
-[![Version](https://img.shields.io/badge/version-2.0.0-8B5CF6.svg)](https://github.com/general-04/DuskNotify)
+[![Version](https://img.shields.io/badge/version-2.2.0-8B5CF6.svg)](https://github.com/general-04/DuskNotify)
 [![Size](https://img.shields.io/badge/size-40kb-4F46E5.svg)]()
 
 </div>
