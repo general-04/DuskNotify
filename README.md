@@ -6,14 +6,14 @@
 
 **DuskNotify9Level**
 
-[![Version](https://img.shields.io/badge/version-2.2.0-8B5CF6.svg)](https://github.com/general-04/DuskNotify)
-[![Size](https://img.shields.io/badge/size-40kb-4F46E5.svg)]()
+[![Version](https://img.shields.io/badge/version-2.2.1-8B5CF6.svg)](https://github.com/general-04/DuskNotify)
+[![Size](https://img.shields.io/badge/size-65.4kb-4F46E5.svg)]()
 
 </div>
 
 ## ✨ คุณสมบัติ
 
-- 🌑 ธีมดาร์กโหมดที่ออกแบบมาแบบเดียว
+- 🌑🌕 Theme Dark/Light
 - 📱 Responsive Design
 - 🛠️ Flexible customization  
 
@@ -28,7 +28,7 @@
 
 ### วิธีที่ 2: ดาวน์โหลด
 
-[ดาวน์โหลด DuskNotify v2.2.0](https://github.com/general-04/DuskNotify/)
+[ดาวน์โหลด DuskNotify v2.2.1](https://github.com/general-04/DuskNotify/)
 
 ## 🚀 การใช้งานเบื้องต้น
 
