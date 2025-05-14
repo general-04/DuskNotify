@@ -22,7 +22,7 @@
 ### วิธีที่ 1: ผ่าน CDN
 
 ```html
-<script src="https://cdn.jsdelivr.net/gh/general-04/DuskNotify@main/DuskNotify.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/general-04/DuskNotify@main/DuskNotify9.min.js"></script>
 ```
 
 ### วิธีที่ 2: ดาวน์โหลด
